@@ -1,81 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <link rel="stylesheet" href="./css/style.css">
 
-      <link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon.ico">
-    <title>Google Home Page|| Clone</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 
-  <body>
-    <div class="container">
-      <nav>
-        <div class="nav_links">
-         <div class=""> <a href="">Gmail</a> <a href="">Images</a></div>
-         <div class="">
-            <a href="">
-                <i class="material-icons">apps</i>
-               </a>
-               <a href="">
-                 <i class="material-icons">account_circle</i>
-               </a>
-         </div>
+  <link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon.ico">
+  <title>Google Home Page|| Clone</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <div class="nav_links">
+        <div class="mobile_nav">
+          <i class="material-icons mobile">menu</i>
+          <a href="#" class="mobile">All</a>
+          <a href="#" class="desktop">Gmail</a>
+          <a href="#" class="mobile">Images</a>
         </div>
-      </nav>
-      <div class="hero">
-          <div class="hero_img">
-              <img src="./Images/googlelogo.png" alt="Google logo">
-          </div>
+        <div class="">
+          <a href="#">
+            <i class="material-icons">apps</i>
+          </a>
+          <a href="#">
+            <i class="material-icons">account_circle</i>
+          </a>
+        </div>
       </div>
-      <div class="form">
-         <div class="form_input">
-          <form action="">
-            <i class="material-icons">search</i>
-          <input type="text">
-          <i class="material-icons">mic</i>
-        </form>
-          <div class="btn">
-            <button>Google Search</button>
-            <button>I'm Felling Lucky</button>
-          </div>
-         </div>
+    </nav>
+    <div class="hero">
+      <div class="hero_img">
+        <img src="./Images/googlelogo.png" alt="Google logo">
       </div>
-      <div class="mid_section">
-          <span>Google Also offered In:</span>
-          <a href="">Hausa</a>
-          <a href=""> Igbo</a>
-          <a href="">Èdè</a>
-          <a href="">Yorùbá</a>
-          <a href="">Nigerian Pidgin</a>
-      </div>
-      <footer>
-          <span>Nigeria</span>
-          <hr>
-         <div class="footer">
-          <div class="footer_links">
-            <a href="">About</a>
-            <a href="">Advertisment</a>
-            <a href="">Business</a>
-            <a href="">How Search Works</a>
-        </div>
-        <div class="footer_links">
-            <a href="">
-              <img src="./Images/green.png" alt="carbon_neutral">
-              <span>Carbon neutral since 2007</span>
-            </a>
-        </div>
-        <div class="footer_links">
-            <a href="">Privacy</a>
-            <a href="">Terms</a>
-            <a href="">Settings</a>
-        </div>
-         </div>
-      </footer>
     </div>
-  </body>
+    <div class="form">
+      <div class="form_input">
+        <form class="search">
+          <i class="material-icons">search</i>
+          <input type="text">
+          <img src="./Images/google-microphone.png" alt="">
+          <!-- <i class="material-icons">mic</i> -->
+        </form>
+        <div class="btn desktop">
+          <button>Google Search</button>
+          <button>I'm Felling Lucky</button>
+        </div>
+      </div>
+    </div>
+    <div class="mid_section">
+      <p class="gg">Google Also offered In:</p>
+      <a href="#">Hausa</a>
+      <a href="#"> Igbo</a>
+      <a href="#">Èdè</a>
+      <a href="#">Yorùbá</a>
+      <a href="#">Nigerian Pidgin</a>
+    </div>
+    <footer>
+      <span>Nigeria</span>
+      <hr>
+      <div class="footer">
+        <div class="footer_links desktop">
+          <a href="">About</a>
+          <a href="">Advertisment</a>
+          <a href="">Business</a>
+          <a href="">How Search Works</a>
+        </div>
+        <div class="footer_links desktop">
+          <a href="#" class="">
+            <img src="./Images/green.png" alt="carbon_neutral">
+            <span>Carbon neutral since 2007</span>
+          </a>
+        </div>
+        <div class="footer_links m">
+          <a href="">Privacy</a>
+          <a href="">Terms</a>
+          <a href="">Settings</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
