@@ -1,1 +1,1 @@
-This is Ajaba Godswill's first git project
+A responsive clone of Google's homepage
